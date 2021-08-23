@@ -1,9 +1,9 @@
 import React from "react"
-import Home from "./Home";
 import Contact from "./components/Contact/Contact";
 import Portfolio from "./components/Portfolio/Portfolio";
 import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
+import "./app.scss"
 
 import Nav from "./navbar/Nav";
 

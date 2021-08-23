@@ -3,7 +3,7 @@ import "./resume.scss";
 
 function Resume() {
     return (
-        <div className="resume">
+        <div className="resume" id="resume">
         <h1> My Resume</h1>
         </div>
     );
