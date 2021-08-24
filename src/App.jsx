@@ -4,7 +4,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
 import "./app.scss";
-import Nav from "./navbar/Nav";
+import Nav from "./components/navbar/Nav";
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
 
