@@ -1,40 +1,42 @@
-import React from "react";
-// import {Link} from "react-router-dom"
-import "./nav.scss";
-import {HikingIcon, AppRegistrationIcon, ContactMail, AssignmentInd } from '@material-ui/icons';
+import React from "react"
+import "../navbar/nav.scss";
+import VisibilityIcon from '@material-ui/icons/Visibility';
+import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 
-
-function Nav(){
+export default function Nav({menuOpen, setMenuOpen}) {
     return (
-        <div className="nav">
-            <div className="wrapper">
-                
-                <div className="left">
+        <div className={"nav" + (menuOpen && "active")}>
+          <div className="wrapper">
+          <div className="left">
                     <a href="#about" className= "logo">J. H. Osterfeld</a>
                     <div className= "itemContainer">
-                        <HikingIcon className="icon"/>
+                        <VisibilityIcon className="icon"/>
                         <span>+44 63464</span>
                     </div>
                     <div className= "itemContainer">
-                        <AppRegistrationIcon className="icon" />
+                        <PhotoLibraryIcon className="icon" />
                         <span>Portfolio</span>
                     </div>
                     <div className= "itemContainer">
-                        <ContactMail className="icon"/>
+                        <MailOutlineIcon className="icon"/>
                         <span>jczarfeld@gmail.com</span>
                     </div>
                     <div className= "itemContainer">
-                        <AssignmentInd className="icon"/>
+                        <AssignmentIndIcon className="icon"/>
                         <span>Resume</span>
                     </div>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#resume">Resume</a>
+                   
                 </div>
               
                 <div className="right">
+                    <div className="hamburger">
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
+                    </div>
 
-                Hello
                 </div>
 
 
@@ -46,5 +48,3 @@ function Nav(){
         </div>
     )
 }
-
-export default Nav;
