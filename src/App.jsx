@@ -2,7 +2,6 @@ import React from "react"
 import Contact from "./components/Contact/Contact";
 import Portfolio from "./components/Portfolio/Portfolio";
 import About from "./components/About/About";
-import Resume from "./components/Resume/Resume";
 import "./app.scss";
 import Nav from "./components/navbar/Nav";
 import { useState } from "react";
@@ -18,7 +17,7 @@ function App() {
       <About/>
       <Portfolio/>
       <Contact/>
-      <Resume/>
+      
       </div>
     </div>
   );
