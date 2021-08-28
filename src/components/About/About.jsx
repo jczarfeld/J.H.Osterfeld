@@ -1,4 +1,4 @@
-import "./intro.scss";
+import "./about.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 
