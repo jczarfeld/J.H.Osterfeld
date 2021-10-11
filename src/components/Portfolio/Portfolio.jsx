@@ -78,42 +78,43 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 import PortfolioList from '../PortfolioList/PortfolioList';
 import{
-    FrontEnd,
-    BackEnd,
     FullStack,
+    BackEnd,
+    FrontEnd,
     
 } from "../../data";
 export default function Portfolio() {
 
-    const[selected, setSelected] = useState("front");
+    const[selected, setSelected] = useState("full");
     const[data, setData] = useState([]);
     const list =[
-        {
-            id:"front",
-            title:"Front End",
-        },
-        {
-            id:"back",
-            title:"Back End",
-        },
         {
             id:"full",
             title:"Full Stack",
         },
+       {
+            id:"back",
+            title:"Back End",
+        },
+        {
+            id:"front",
+            title:"Front End",
+        },
+     
     ]
     useEffect(()=>{
         switch (selected) {
-                case "front":
-                setData(FrontEnd);
+                case "full":
+                setData(FullStack);
                 break;
                 case "back":
                     setData(BackEnd);
                 break;
-                case "full":
-                setData(FullStack);
+                case "front":
+                setData(FrontEnd);
                 break;
             default:
-                setData(FrontEnd);
+                setData(FullStack);
                 break;
         }
     },[selected])

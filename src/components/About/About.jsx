@@ -1,8 +1,8 @@
 import "./about.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-// var myPic_ = require("../assets/me.jpg");
-import "../assets/me.jpg"
+
+
 
 export default function About() {
   const textRef = useRef();
@@ -49,16 +49,16 @@ return (
   <div className="about" id ="about">
       <div className="left">
           <div className="imgContainer">
-          <img src="../assets/me.jpg" alt="" />
+          <img src= "https://i.ibb.co/hDGZ5Fh/design-9d1b048f-db1b-4e45-a2d1-743507f63bbf.png" alt="design-9d1b048f-db1b-4e45-a2d1-743507f63bbf"  />
           </div>
       </div>
       <div className="right">
           <div className="wrapper">
-              <h2>Hi There, I'm</h2>
+              
               <h1>John H. Osterfeld</h1>
               <h3> <span ref={textRef}></span>Web Developer</h3>
               <div className="brand">
-              <p> My training and ceritifcation includes <strong>HTML</strong> , <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Node.js</strong> and <strong>React</strong>. My additional proclivities include mathematics and crative writing.</p>
+              <p> My training and ceritifcation covers <strong>HTML</strong> , <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Node.js</strong> and <strong>React</strong>. <br /> My additional strengths include mathematics and crative writing.</p>
               </div>
           </div>
           <a href="#portfolio">

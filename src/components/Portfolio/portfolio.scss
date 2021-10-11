@@ -1,10 +1,14 @@
 @import "../../global.scss";
 
 .portfolio{
-    background-color: white;
+    background-color: $mainColor;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: $mainColor;
+    background-image: url("../assets/sachin-gawade-8-qUfBeSHro-unsplash.jpg");
+    background-size: 100vw 100vh;
+    
 }
 h1{
     font-size: 40px;
@@ -16,7 +20,7 @@ h1{
 
 ul{
     height: 5%;
-    margin:10px;
+    margin:30px;
     padding:0;
     list-style: none;
     display: flex;
@@ -30,11 +34,12 @@ ul{
 
 .container{
     overflow: hidden;
-    width: 70%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 
     @include mobile{
         width: 100%;

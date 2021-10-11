@@ -3,6 +3,11 @@
 .contact {
   background-color: white;
   display: flex;
+  color: $mainColor;
+  background-image: url("../assets/stephany-lorena-TUFfbeX9DQY-unsplash.jpg");
+    background-size: 100vw 100vh;
+  
+ 
 
   @include mobile {
     flex-direction: column;
@@ -11,6 +16,7 @@
   .left {
     flex: 1;
     overflow: hidden;
+   
 
     img {
       height: 100%;
@@ -22,6 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 
     h2 {
       font-size: 30px;
@@ -34,6 +41,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
+    background-color: $mainColor;
+    color: $mainColor;
 
       input {
         width: 300px;
