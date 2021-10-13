@@ -14,15 +14,16 @@ export default function Nav({ menuOpen, setMenuOpen }) {
               J. H. Osterfeld</a>
               <div className= "itemContainer">
                         <VisibilityIcon className="icon"/>
-                        <span>About Me</span>
+                        <a href="#about">About Me</a>
+                        {/* <span>About Me</span> */}
                     </div>
                     <div className= "itemContainer">
                         <PhotoLibraryIcon className="icon" />
-                        <span>Portfolio</span>
+                        <a href="#portfolio">Works</a>
                     </div>
                     <div className= "itemContainer">
                         <MailOutlineIcon className="icon"/>
-                        <span>jczarfeld@gmail.com</span>
+                        <a href="#contact">Contact Me</a>
                     </div>
                     <div className= "itemContainer">
                         <AssignmentIndIcon className="icon"/>
@@ -30,13 +31,7 @@ export default function Nav({ menuOpen, setMenuOpen }) {
                     </div>
                     
           </div>
-          <div className="right">
-            <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
-              <span className="line1"></span>
-              <span className="line2"></span>
-              <span className="line3"></span>
-            </div>
-          </div>
+         
         </div>
       </div>
     );
