@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.0e2820a7.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.6fc8740e.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.6fc8740e.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.6465c48a.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.6465c48a.js.map",
+    "static/js/2.f040bf7f.chunk.js": "/React_Portfolio/static/js/2.f040bf7f.chunk.js",
+    "static/js/2.f040bf7f.chunk.js.map": "/React_Portfolio/static/js/2.f040bf7f.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/main.0e2820a7.chunk.css.map": "/React_Portfolio/static/css/main.0e2820a7.chunk.css.map",
+    "static/js/2.f040bf7f.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.f040bf7f.chunk.js.LICENSE.txt",
+    "static/media/about.scss": "/React_Portfolio/static/media/p-k-picture-world-zzRUI1IR5F4-unsplash.21973293.jpg",
+    "static/media/portfolio.scss": "/React_Portfolio/static/media/sachin-gawade-8-qUfBeSHro-unsplash.23e317fc.jpg",
+    "static/media/nav.scss": "/React_Portfolio/static/media/stephany-lorena-TUFfbeX9DQY-unsplash.0dedd40e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6465c48a.js",
+    "static/js/2.f040bf7f.chunk.js",
+    "static/css/main.0e2820a7.chunk.css",
+    "static/js/main.6fc8740e.chunk.js"
+  ]
+}
